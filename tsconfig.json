@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es6",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "outDir": "./dist",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
+  },
+  "include": ["next-env.d.ts", "types/global.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "types": ["jest", "node", "@testing-library/jest-dom"]
+}

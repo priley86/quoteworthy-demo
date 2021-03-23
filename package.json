@@ -1,0 +1,75 @@
+{
+  "name": "quoteworthy-demo",
+  "version": "0.0.1",
+  "description": "Typescript and Material UI example for nextjs-auth0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"{components,pages}/**/*.{ts,tsx}\"",
+    "lint": "eslint \"{components,pages}/**/*.{ts,tsx}\"",
+    "lint:fix": "eslint \"{components,pages}/**/*.{ts,tsx}\" --fix",
+    "prisma:dbpush": "npx prisma db push --preview-feature",
+    "prisma:studio": "npx prisma studio",
+    "prisma:generate": "npx prisma generate",
+    "test": "jest"
+  },
+  "keywords": [
+    "auth0",
+    "nextjs",
+    "typescript",
+    "react",
+    "eslint",
+    "material-ui"
+  ],
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/react-hooks": "^5.0.3",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-jsx": "^2.2.8",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "encoding": "^0.1.13",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1",
+    "prisma": "2.19.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "1.2.0",
+    "@material-ui/core": "4.11.3",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@prisma/client": "^2.19.0",
+    "@serverless-jwt/next": "^0.2.1",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "rootDir": "./",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "author": "Patrick Riley",
+  "license": "MIT",
+  "repository": "git@github.com:priley86/quoteworthy-demo.git"
+}
